@@ -1,0 +1,1 @@
+require './promising_http_request.rb'
