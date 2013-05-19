@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Em::Http::Promise::VERSION
   spec.authors       = ["Joel Jackson"]
   spec.email         = ["jackson.joel@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A gem to wrap EM-HTTP-Request in the loving embrace of promises.}
+  spec.summary       = spec.description
   spec.homepage      = ""
   spec.license       = "MIT"
 
