@@ -20,6 +20,11 @@ Gem::Specification.new do |spec|
   spec.add_dependency "em-http-request"
   spec.add_dependency "em-promise", "~>1.1.1"
 
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rack"
+  spec.add_development_dependency "mongrel", "~> 1.2.0.pre2"
+
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end
